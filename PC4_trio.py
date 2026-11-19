@@ -27,7 +27,7 @@ if opciones == 'Presentación':
     # Alumno a
     col1, col2 = st.columns(2)
     
-    col1.image("IMG_6994_SnapseedCopy", caption='Vania', width=300)
+    col1.image("Vania_imagen.png", caption='Vania', width=300)
 
     texto = """
 ¡Hola! Soy Vania Gonzales y estudio Publicidad.
