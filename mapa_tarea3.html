@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aeeba241d5eb61096602bf345f50efa6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aeeba241d5eb61096602bf345f50efa6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aeeba241d5eb61096602bf345f50efa6 = L.map(
+                "map_aeeba241d5eb61096602bf345f50efa6",
+                {
+                    center: [46.18, 2.46],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_aeeba241d5eb61096602bf345f50efa6);
+
+            
+
+        
+    
+            var tile_layer_ad6fadc26bc21bdc0a75f05b07039250 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap contributors\u003c/a\u003e | Datos bajo licencia \u003ca href=\"https://opendatacommons.org/licenses/odbl/\"\u003eODbL\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+  "referrerPolicy": "strict-origin",
+}
+
+            );
+        
+    
+            tile_layer_ad6fadc26bc21bdc0a75f05b07039250.addTo(map_aeeba241d5eb61096602bf345f50efa6);
+        
+    
+            var marker_76990b3214bce92a72956f0bfd55bffa = L.marker(
+                [40.422727, -3.6915529464210457],
+                {
+}
+            ).addTo(map_aeeba241d5eb61096602bf345f50efa6);
+        
+    
+            var icon_8e120140a50063b1f062cfe08d13ebaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49da1db7d813a271e0904bc9533d8c6e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1798d2325358b61dd80e13e002ba39ea = $(`<div id="html_1798d2325358b61dd80e13e002ba39ea" style="width: 100.0%; height: 100.0%;">          <div style="text-align:center; margin-bottom:100px;">                     <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2016/10/27/14775877527821.jpg"                          width="100"                          height="100"                          style="object-fit:cover; border-radius:50%;">                      <b>C. SAINZ</b><br>                     <span>Toro Rosso</span><br>                     <p><b>Puntaje total:</b> 46 puntos</p>                     <div>                  </div>                 </div>`)[0];
+                popup_49da1db7d813a271e0904bc9533d8c6e.setContent(html_1798d2325358b61dd80e13e002ba39ea);
+            
+        
+
+        marker_76990b3214bce92a72956f0bfd55bffa.bindPopup(popup_49da1db7d813a271e0904bc9533d8c6e)
+        ;
+
+        
+    
+    
+            marker_76990b3214bce92a72956f0bfd55bffa.bindTooltip(
+                `<div>
+                     C. SAINZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_76990b3214bce92a72956f0bfd55bffa.setIcon(icon_8e120140a50063b1f062cfe08d13ebaf);
+            
+    
+            var marker_6bf9c3f1225a00b6e948b8048a02b4b6 = L.marker(
+                [49.6419944, 8.646965],
+                {
+}
+            ).addTo(map_aeeba241d5eb61096602bf345f50efa6);
+        
+    
+            var icon_f4ac214bd26ce8dc100c0fde12fe4fdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0a436ac363679722af4c22c45dbcd51 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2082df21a8d36aec5475a5df4ba03a89 = $(`<div id="html_2082df21a8d36aec5475a5df4ba03a89" style="width: 100.0%; height: 100.0%;">          <div style="text-align:center; margin-bottom:100px;">                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYu1ixpyN30a-A4O4LelK9qrZjwj7E4hGR9gpqgpg3UGqoE6LZsbbymixL&s=10"                          width="100"                          height="100"                          style="object-fit:cover; border-radius:50%;">                      <b>S. VETTEL</b><br>                     <span>Ferrari</span><br>                     <p><b>Puntaje total:</b> 212 puntos</p>                     <div>                  </div>                 </div>`)[0];
+                popup_d0a436ac363679722af4c22c45dbcd51.setContent(html_2082df21a8d36aec5475a5df4ba03a89);
+            
+        
+
+        marker_6bf9c3f1225a00b6e948b8048a02b4b6.bindPopup(popup_d0a436ac363679722af4c22c45dbcd51)
+        ;
+
+        
+    
+    
+            marker_6bf9c3f1225a00b6e948b8048a02b4b6.bindTooltip(
+                `<div>
+                     S. VETTEL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6bf9c3f1225a00b6e948b8048a02b4b6.setIcon(icon_f4ac214bd26ce8dc100c0fde12fe4fdc);
+            
+</script>
+</html>
