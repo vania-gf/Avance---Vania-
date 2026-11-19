@@ -12,33 +12,33 @@ import streamlit.components.v1 as components
 ### Opción 1: Menú vertical
 with st.sidebar:
     opciones = option_menu("Selecciona una sección: ",['Presentación', 'Experiencia', 'Gráficos'] , 
-        icons=['0-circle','1-circle', '2-circle'], menu_icon="filetype-py", default_index=0)
+        icons=['house-door-fill','person-lines-fill', 'graph-up'], menu_icon="filetype-py", default_index=0)
 
 ### Opción 2: Menú horizontal
-opciones_2 = option_menu(
-    menu_title="Selecciona una sección: ", 
-    options=['Presentación', 'Experiencia', 'Gráficos'], 
-    icons=['0-circle','1-circle', '2-circle'], 
-    menu_icon="cast", default_index=0, orientation="horizontal")
+# opciones_2 = option_menu(
+#    menu_title="Selecciona una sección: ", 
+#    options=['Presentación', 'Experiencia', 'Gráficos'], 
+#    icons=['0-circle','1-circle', '2-circle'], 
+#    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Presentación':
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nombre del blog</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: blue'>Corto Match</h1>", unsafe_allow_html=True)
 
     # Alumno a
     col1, col2 = st.columns(2)
     
-    col1.image("ellie.png", caption='Ellie', width=300)
+    col1.image("IMG_6994_SnapseedCopy", caption='Vania', width=300)
 
     texto = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres? 
-    ¿De dónde eres? 
-    ¿Qué estudias?
-    ¿Qué te gusta de tu carrera? 
-    ¿Qué te gustaría hacer en el futuro?
-    ¿Qué te gusta hacer en tu tiempo libre?
+¡Hola! Soy Vania Gonzales y estudio Publicidad.
+Me encanta la repostería, porque hornear me permite crear cosas dulces y compartirlas con los demás. 
+También tejo crochet, que me relaja y me deja hacer proyectos con mis propias manos. 
+Y me gusta la fotografía, porque me permite capturar detalles que a veces pasan desapercibidos.
+Mi color favorito es el verde palta. 
+También me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
+    
     """
-    col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>", unsafe_allow_html=True)
+    col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto}</div>", unsafe_allow_html=True)
 
     # Alumno b
     col1, col2 = st.columns(2)
@@ -52,7 +52,7 @@ if opciones == 'Presentación':
     ¿Qué te gustaría hacer en el futuro? 
     ¿Qué te gusta hacer en tu tiempo libre?
     """
-    col1.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_2}</div>", unsafe_allow_html=True)
+    col1.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
     
     col2.image("ellie.png", caption='Ellie', width=300)
 
@@ -70,11 +70,11 @@ if opciones == 'Presentación':
     ¿Qué te gustaría hacer en el futuro?
     ¿Qué te gusta hacer en tu tiempo libre?
     """
-    col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_3}</div>", unsafe_allow_html=True)
+    col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
     
 elif  opciones == 'Experiencia':
 
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nombre a la sección de experiencia 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nuestra experiencia 💻</h1>", unsafe_allow_html=True)
 
     # Alumno a
     texto_4 = """
