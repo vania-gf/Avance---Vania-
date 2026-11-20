@@ -30,12 +30,12 @@ if opciones == 'Presentación':
     col1.image("Vania_imagen.png", caption='Vania', width=300)
 
     texto = """
-¡Hola! Soy Vania Gonzales y estudio Publicidad.
-Me encanta la repostería, porque hornear me permite crear cosas dulces y compartirlas con los demás. 
-También tejo crochet, que me relaja y me deja hacer proyectos con mis propias manos. 
-Y me gusta la fotografía, porque me permite capturar detalles que a veces pasan desapercibidos.
-Mi color favorito es el verde palta. 
-También me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
+    ¡Hola! Soy Vania Gonzales y estudio Publicidad.
+    Me encanta la repostería, porque hornear me permite crear cosas dulces y compartirlas con los demás. 
+    También tejo crochet, que me relaja y me deja hacer proyectos con mis propias manos. 
+    Y me gusta la fotografía, porque me permite capturar detalles que a veces pasan desapercibidos.
+    Mi color favorito es el verde palta. 
+    También me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
     
     """
     col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto}</div>", unsafe_allow_html=True)
