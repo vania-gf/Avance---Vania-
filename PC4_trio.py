@@ -44,31 +44,31 @@ if opciones == 'Presentación':
     col1, col2 = st.columns(2)
     
     texto_2 = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres? 
-    ¿De dónde eres? 
-    ¿Qué estudias? 
-    ¿Qué te gusta de tu carrera? 
-    ¿Qué te gustaría hacer en el futuro? 
-    ¿Qué te gusta hacer en tu tiempo libre?
+    ¡Hola! Mi nombre es Nahomi y soy estudiante de Comunicación Audiovisual. 
+    Me gusta ver series y películas. También disfruto ver anime, y entre mis favoritos 
+    están One Piece y Lovely Complex. Otra de mis actividades favoritas es escuchar música, en especial K-pop y J-pop. 
+    Entre mis pasatiempos está la lectura, aunque últimamente no tengo tanto tiempo para dedicarle como me gustaría. 
+    Además, me encanta pasar tiempo con mis amigos, ya sea para jugar en internet, conversar o simplemente disfrutar de su compañía. 
+    Por último, actualmente, 
+    estoy aprendiendo a dibujar y a tejer a crochet.
     """
     col1.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
     
-    col2.image("ellie.png", caption='Ellie', width=300)
+    col2.image("Nahomi_imagen.png.jpeg", caption='Nahomi', width=300)
 
     # Alumno c
     col1, col2 = st.columns(2)
     
-    col1.image("ellie.png", caption='Ellie', width=300)
+    col1.image("Gabriela_imagen.png.jpeg", caption='Gabriela', width=300)
     
     texto_3 = """
-    Aquí escribe una presentación creativa sobre ti.
-    ¿Quién eres? 
-    ¿De dónde eres? 
-    ¿Qué estudias?
-    ¿Qué te gusta de tu carrera? 
-    ¿Qué te gustaría hacer en el futuro?
-    ¿Qué te gusta hacer en tu tiempo libre?
+    ¡Hola! Soy Gabriela Chirinos y estudio Publicidad, 
+    actualmente curso quinto ciclo. Me considero creativa, organizada e independiente. Me gusta conocer
+    lugares nuevos, tomar fotografías y visitar galerías y museos. Disfruto escuchar rock y pop,
+    especialmente a Måneskin, y mi color favorito es el rojo. 
+    Me inspira la publicidad que genera cambios sociales mediante ideas innovadoras. 
+    A futuro, quiero crear campañas que dejen huella, destacar por mi trabajo y 
+    participar en grandes eventos y colaboraciones.    
     """
     col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
     
@@ -78,11 +78,11 @@ elif  opciones == 'Experiencia':
 
     # Alumno a
     texto_4 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio? 
-    ¿Qué te ha enseñado la programación? 
-    ¿Qué te gusta de programar? 
-    ¿Qué te gustaría hacer con la programación en el futuro?
+    Aprender a programar para mi fue caótico. 
+    Al principio me sentí muy confundida, ya que era la primera vez que llevaba un curso de este tipo.
+    Programar hizo qu sea más consciente de lo que hay detrás de los programas, también los conceptos basicos para comprender los códigos. 
+    Lo que me gustó de programar fue que tener estos conocimientos puedo aplicarlos en mi vida profesional  
+    , como también puedo ayudar a más personas y para eso me encantaria seguir aprendiendo y adquiriendo más conocimientos en este ambito.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_4}</div>", unsafe_allow_html=True)
     
