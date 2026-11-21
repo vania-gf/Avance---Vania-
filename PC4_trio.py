@@ -11,7 +11,7 @@ import streamlit.components.v1 as components
 
 ### Opción 1: Menú vertical
 with st.sidebar:
-    opciones = option_menu("Selecciona una sección: ",['Presentación', 'Experiencia', 'Gráficos'] , 
+    opciones = option_menu("Menú: ",['Presentación', 'Experiencia', 'Gráficos'] , 
         icons=['house-door-fill','person-lines-fill', 'graph-up'], menu_icon="filetype-py", default_index=0)
 
 ### Opción 2: Menú horizontal
@@ -22,7 +22,7 @@ with st.sidebar:
 #    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Presentación':
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #2C2966'>NUESTRO PRIMER BLOG</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #8f0b24'>NUESTRO PRIMER BLOG</h1>", unsafe_allow_html=True)
 
     # Alumno a
     col1, col2 = st.columns(2)
@@ -38,7 +38,7 @@ if opciones == 'Presentación':
     Además, mi color favorito es el verde palta. 
     Y me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
     """
-    col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto}</div>", unsafe_allow_html=True)
+    col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto}</div>", unsafe_allow_html=True)
 
     # Alumno b
     col1, col2 = st.columns(2)
@@ -52,7 +52,7 @@ if opciones == 'Presentación':
     A futuro, quiero crear campañas que dejen huella, 
     destacar por mi trabajo y participar en grandes eventos y colaboraciones.
     """
-    col1.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
+    col1.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_2}</div>", unsafe_allow_html=True)
     
     col2.image("Gabriela_imagen.png", caption='Gabriela', width=300)
 
@@ -70,19 +70,19 @@ if opciones == 'Presentación':
     Por último, actualmente, estoy aprendiendo a dibujar y 
     a tejer a crochet.    
     """
-    col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
+    col2.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_3}</div>", unsafe_allow_html=True)
     
 elif  opciones == 'Experiencia':
 
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: black'>Nuestra experiencia 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #8f0b24'>Nuestra experiencia 💻</h1>", unsafe_allow_html=True)
 
     # Alumno a
     texto_4 = """
-    Para mí, aprender a programar resultó un poco caótico. Al principio me sentí un poco confundida y frustrada, ya que era la primera vez que llevaba un curso de este tipo y todo me resultaba completamente nuevo.
+    Vania: "Para mí, aprender a programar resultó un poco caótico. Al principio me sentí un poco confundida y frustrada, ya que era la primera vez que llevaba un curso de este tipo y todo me resultaba completamente nuevo.
     Luego, con el paso de las clases, la programación me enseño a ser más consciente de toda la lógica que hay detrás de los programas que usamos diariamente,
     además de darme los conceptos básicos para entender cómo funciona el código. 
     Lo que más me gustó de programar es saber que puedo aplicar estas herramientas en mi vida profesional ypoder usarlas para ayudar a más personas.
-    Por eso, en el futuro me gustaría seguir aprendiendo y mejorando mis habulidades en este ámbito.
+    Por eso, en el futuro me gustaría seguir aprendiendo y mejorando mis habulidades en este ámbito".
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_4}</div>", unsafe_allow_html=True)
     
@@ -103,11 +103,12 @@ elif  opciones == 'Experiencia':
 
     # Alumno b
     texto_5 = """
-    ​Al principio no sabía nada de programación ni conceptos teóricos, 
+    Gabriela:"​Al principio no sabía nada de programación ni conceptos teóricos, 
     lo que me generaba un poco de estrés al no saber cómo resolver los ejercicios. 
     Sin embargo, programar me enseñó desde la lógica básica como condicionales, bucles, listas y strings hasta comentar el código, 
     importar librerías y limpiar textos usando stopwords. 
-    Disfruté mucho dar color y forma a nubes de palabras, gráficos y mapas para presentar datos de manera visual y clara. Además, aprendí a planificar soluciones con documentación y diagramas de flujo aplicadas a proyectos de comunicación. A futuro, me gustaría usar estos gráficos y crear bases de datos para la página de un emprendimiento, logrando así una mejor organización y logística.
+    Disfruté mucho dar color y forma a nubes de palabras, gráficos y mapas para presentar datos de manera visual y clara. Además, aprendí a planificar soluciones con documentación y
+    diagramas de flujo aplicadas a proyectos de comunicación. A futuro, me gustaría usar estos gráficos y crear bases de datos para la página de un emprendimiento, logrando así una mejor organización y logística".
 
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_5}</div>", unsafe_allow_html=True)
@@ -129,11 +130,11 @@ elif  opciones == 'Experiencia':
 
     # Alumno c
     texto_6 = """
-    Al principio aprender a programar fue un poco complicado, puesto que era un entorno completamente ajeno para mí. 
+    Nahomi: "Al principio aprender a programar fue un poco complicado, puesto que era un entorno completamente ajeno para mí. 
     No comprendía bien cómo operaban ciertas funciones y eso producía que yo cometiera errores al momento de estudiar. 
     Además, considero que, principalmente, la programación me enseñó el lenguaje básico de Python y a tener mucha paciencia. 
     Asimismo, lo que más me gustó de estas experiencias es justo el proceso de programar, si bien es un proceso estresante y tardado, 
-    también creo que es divertido el seguir asegurarte de que todo se encuentre bien. En un futuro, me gustaría utilizar estos conocimientos como los mapas o las tablas para complementar proyectos venideros.
+    también creo que es divertido el seguir asegurarte de que todo se encuentre bien. En un futuro, me gustaría utilizar estos conocimientos como los mapas o las tablas para complementar proyectos venideros".
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_6}</div>", unsafe_allow_html=True)
         
@@ -154,7 +155,7 @@ elif  opciones == 'Experiencia':
             
 else:
 
-    st.markdown("<h1 style='text-align: center;font-size: 50 px; color: black'>Nuestros gráficos logrados💪</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;font-size: 50 px; color: #8f0b24'>Nuestros gráficos logrados💪</h1>", unsafe_allow_html=True)
     
     # Aquí todos los integrantes deben poner sus 3 gráficos y su mapa en la lista 
     # y aumentar la estructura condicional como sea necesaria
