@@ -118,7 +118,7 @@ elif  opciones == 'Experiencia':
     st.video("https://youtu.be/6ofXrrw5Ats?si=vWkmzEfj1vJPHdQt")
         
     # Formato Google Drive
-    st.subheader("🎥 Título apropiado video 2")
+    st.subheader("🎥 ¡Antes de despachar, if , elif y else deben trabajar!")
     st.video("https://youtu.be/jk8IWn7kIIQ?si=omBO-3PIrNYvPkb7")
     col1, col2, col3 = st.columns([1, 2, 1])
     
