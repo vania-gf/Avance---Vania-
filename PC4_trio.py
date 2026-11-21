@@ -84,7 +84,7 @@ elif  opciones == 'Experiencia':
     Lo que más me gustó de programar es saber que puedo aplicar estas herramientas en mi vida profesional ypoder usarlas para ayudar a más personas.
     Por eso, en el futuro me gustaría seguir aprendiendo y mejorando mis habulidades en este ámbito".
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_4}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: justify; font-size: 17px;'>{texto_4}</div>", unsafe_allow_html=True)
     
     # Formato YouTube
     st.subheader("🎥 Semejanzas y diferencias(strings y listas)")
@@ -111,10 +111,10 @@ elif  opciones == 'Experiencia':
     diagramas de flujo aplicadas a proyectos de comunicación. A futuro, me gustaría usar estos gráficos y crear bases de datos para la página de un emprendimiento, logrando así una mejor organización y logística".
 
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_5}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: justify; font-size: 17px;'>{texto_5}</div>", unsafe_allow_html=True)
         
     # Formato YouTube
-    st.subheader("🎥 Título apropiado video 1")
+    st.subheader("🎥 Código SOS: AND, OR y NOT al rescate")
     st.video("https://youtu.be/6ofXrrw5Ats?si=vWkmzEfj1vJPHdQt")
         
     # Formato Google Drive
@@ -136,7 +136,7 @@ elif  opciones == 'Experiencia':
     Asimismo, lo que más me gustó de estas experiencias es justo el proceso de programar, si bien es un proceso estresante y tardado, 
     también creo que es divertido el seguir asegurarte de que todo se encuentre bien. En un futuro, me gustaría utilizar estos conocimientos como los mapas o las tablas para complementar proyectos venideros".
     """
-    st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_6}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='text-align: justify; font-size: 17px;'>{texto_6}</div>", unsafe_allow_html=True)
         
     # Formato YouTube
     st.subheader("🎥 Título apropiado video 1")
