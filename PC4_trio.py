@@ -22,7 +22,7 @@ with st.sidebar:
 #    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Presentación':
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: blue'>Corto Match</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #2C2966'>Corto Match</h1>", unsafe_allow_html=True)
 
     # Alumno a
     col1, col2 = st.columns(2)
@@ -30,13 +30,13 @@ if opciones == 'Presentación':
     col1.image("Vania_imagen.png", caption='Vania', width=300)
 
     texto = """
-    ¡Hola! Soy Vania Gonzales y estudio Publicidad.
-    Me encanta la repostería, porque hornear me permite crear cosas dulces y compartirlas con los demás. 
-    También tejo crochet, que me relaja y me deja hacer proyectos con mis propias manos. 
+    ¡Hola! Soy Vania Gonzales y estudio Publicidad  ㅤ♡. 
+    Lo que más me gusta de mi carrera es entender al público para conectar ideas creativas con las personas y lograr comunicar un mensaje óptimo.
+    En mi tiempo libre disfruto mucho de las manualidades. Me encanta la repostería, ya que hornear me permite crear cosas dulces y compartirlas con los demás. 
+    También tejo crochet, que me relaja y me deja crear proyectos propios.
     Y me gusta la fotografía, porque me permite capturar detalles que a veces pasan desapercibidos.
-    Mi color favorito es el verde palta. 
-    También me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
-    
+    Además, mi color favorito es el verde palta. 
+    Y me encanta escuchar música, especialmente a Shawn Mendes y Lauryn Hill, que están siempre en mi playlist.
     """
     col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto}</div>", unsafe_allow_html=True)
 
@@ -44,31 +44,31 @@ if opciones == 'Presentación':
     col1, col2 = st.columns(2)
     
     texto_2 = """
-    ¡Hola! Mi nombre es Nahomi y soy estudiante de Comunicación Audiovisual. 
-    Me gusta ver series y películas. También disfruto ver anime, y entre mis favoritos 
-    están One Piece y Lovely Complex. Otra de mis actividades favoritas es escuchar música, en especial K-pop y J-pop. 
-    Entre mis pasatiempos está la lectura, aunque últimamente no tengo tanto tiempo para dedicarle como me gustaría. 
-    Además, me encanta pasar tiempo con mis amigos, ya sea para jugar en internet, conversar o simplemente disfrutar de su compañía. 
-    Por último, actualmente, 
-    estoy aprendiendo a dibujar y a tejer a crochet.
+    ¡Hola! Soy Gabriela Chirinos y estudio Publicidad, actualmente curso quinto ciclo ㅤ♡.
+    Me considero creativa, organizada e independiente.  
+    Me gusta conocer lugares nuevos, tomar fotografías y visitar galerías y museos. 
+    Mi color favorito es el rojo y mis géneros musicales preferidos son el rock y el pop, especialmente a Måneskin, que es una de mis bandas favoritas. 
+    Me inspira la publicidad que genera cambios sociales mediante ideas innovadoras.  
+    A futuro, quiero crear campañas que dejen huella, 
+    destacar por mi trabajo y participar en grandes eventos y colaboraciones.
     """
     col1.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
     
-    col2.image("Nahomi_imagen.png.jpeg", caption='Nahomi', width=300)
+    col2.image("Gabriela_imagen.png.jpeg", caption='Gabriela', width=300)
 
     # Alumno c
     col1, col2 = st.columns(2)
     
-    col1.image("Gabriela_imagen.png.jpeg", caption='Gabriela', width=300)
+    col1.image("Nahomi_imagen.png.jpeg", caption='Nahomi', width=300)
     
     texto_3 = """
-    ¡Hola! Soy Gabriela Chirinos y estudio Publicidad, 
-    actualmente curso quinto ciclo. Me considero creativa, organizada e independiente. Me gusta conocer
-    lugares nuevos, tomar fotografías y visitar galerías y museos. Disfruto escuchar rock y pop,
-    especialmente a Måneskin, y mi color favorito es el rojo. 
-    Me inspira la publicidad que genera cambios sociales mediante ideas innovadoras. 
-    A futuro, quiero crear campañas que dejen huella, destacar por mi trabajo y 
-    participar en grandes eventos y colaboraciones.    
+    ¡Hola! Mi nombre es Nahomi y soy estudiante de Comunicación Audiovisualㅤ♡. 
+    Me gusta ver series y películas. También disfruto ver anime, y entre mis favoritos están One Piece y Lovely Complex. 
+    Otra de mis actividades favoritas es escuchar música, en especial K-pop y J-pop. 
+    Entre mis pasatiempos está la lectura, aunque últimamente no tengo tanto tiempo para dedicarle como me gustaría. 
+    Además, me encanta pasar tiempo con mis amigos, ya sea para jugar en internet, conversar o simplemente disfrutar de su compañía. 
+    Por último, actualmente, estoy aprendiendo a dibujar y 
+    a tejer a crochet.    
     """
     col2.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_3}</div>", unsafe_allow_html=True)
     
@@ -78,11 +78,11 @@ elif  opciones == 'Experiencia':
 
     # Alumno a
     texto_4 = """
-    Aprender a programar para mi fue caótico. 
-    Al principio me sentí muy confundida, ya que era la primera vez que llevaba un curso de este tipo.
-    Programar hizo qu sea más consciente de lo que hay detrás de los programas, también los conceptos basicos para comprender los códigos. 
-    Lo que me gustó de programar fue que tener estos conocimientos puedo aplicarlos en mi vida profesional  
-    , como también puedo ayudar a más personas y para eso me encantaria seguir aprendiendo y adquiriendo más conocimientos en este ambito.
+    Para mí, aprender a programar resultó un poco caótico. Al principio me sentí un poco confundida y frustrada, ya que era la primera vez que llevaba un curso de este tipo y todo me resultaba completamente nuevo.
+    Luego, con el paso de las clases, la programación me enseño a ser más consciente de toda la lógica que hay detrás de los programas que usamos diariamente,
+    además de darme los conceptos básicos para entender cómo funciona el código. 
+    Lo que más me gustó de programar es saber que puedo aplicar estas herramientas en mi vida profesional ypoder usarlas para ayudar a más personas.
+    Por eso, en el futuro me gustaría seguir aprendiendo y mejorando mis habulidades en este ámbito.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_4}</div>", unsafe_allow_html=True)
     
