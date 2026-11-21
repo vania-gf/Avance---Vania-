@@ -22,7 +22,7 @@ with st.sidebar:
 #    menu_icon="cast", default_index=0, orientation="horizontal")
 
 if opciones == 'Presentación':
-    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #2C2966'>Corto Match</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; font-size: 50 px; color: #2C2966'>NUESTRO PRIMER BLOG</h1>", unsafe_allow_html=True)
 
     # Alumno a
     col1, col2 = st.columns(2)
@@ -54,12 +54,12 @@ if opciones == 'Presentación':
     """
     col1.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_2}</div>", unsafe_allow_html=True)
     
-    col2.image("Gabriela_imagen.png.jpeg", caption='Gabriela', width=300)
+    col2.image("Gabriela_imagen.png", caption='Gabriela', width=300)
 
     # Alumno c
     col1, col2 = st.columns(2)
     
-    col1.image("Nahomi_imagen.png.jpeg", caption='Nahomi', width=300)
+    col1.image("Nahomi_imagen.png", caption='Nahomi', width=300)
     
     texto_3 = """
     ¡Hola! Mi nombre es Nahomi y soy estudiante de Comunicación Audiovisualㅤ♡. 
@@ -87,27 +87,28 @@ elif  opciones == 'Experiencia':
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_4}</div>", unsafe_allow_html=True)
     
     # Formato YouTube
-    st.subheader("🎥 Título apropiado video 1")
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.subheader("🎥 Semejanzas y diferencias(strings y listas)")
+    st.video("https://youtu.be/qiLo8mehgQ8")
     
     # Formato Google Drive
-    st.subheader("🎥 Título apropiado video 2")
-
+    st.subheader("🎥 Estructuras condicionales(if-elif-else)")
+    st.video("https://youtu.be/QMJT7jpJgBg")
     col1, col2, col3 = st.columns([1, 2, 1])
 
-    with col2:  
-        st.link_button("🎥 Texto del botón",
-                       "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
-                       use_container_width=True
-            )
+    #with col2:  
+        #st.link_button("🎥 Texto del botón",
+                #       "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
+                #       use_container_width=True
+      #      )
 
     # Alumno b
     texto_5 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio?
-    ¿Qué te ha enseñado la programación?
-    ¿Qué te gusta de programar? 
-    ¿Qué te gustaría hacer con la programación en el futuro?
+    ​Al principio no sabía nada de programación ni conceptos teóricos, 
+    lo que me generaba un poco de estrés al no saber cómo resolver los ejercicios. 
+    Sin embargo, programar me enseñó desde la lógica básica como condicionales, bucles, listas y strings hasta comentar el código, 
+    importar librerías y limpiar textos usando stopwords. 
+    Disfruté mucho dar color y forma a nubes de palabras, gráficos y mapas para presentar datos de manera visual y clara. Además, aprendí a planificar soluciones con documentación y diagramas de flujo aplicadas a proyectos de comunicación. A futuro, me gustaría usar estos gráficos y crear bases de datos para la página de un emprendimiento, logrando así una mejor organización y logística.
+
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_5}</div>", unsafe_allow_html=True)
         
@@ -117,7 +118,7 @@ elif  opciones == 'Experiencia':
         
     # Formato Google Drive
     st.subheader("🎥 Título apropiado video 2")
-    
+    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:  
@@ -128,11 +129,11 @@ elif  opciones == 'Experiencia':
 
     # Alumno c
     texto_6 = """
-    Aquí escribe tu experiencia aprendiendo a programar. 
-    ¿Cómo te sentiste al principio? 
-    ¿Qué te ha enseñado la programación? 
-    ¿Qué te gusta de programar? 
-    ¿Qué te gustaría hacer con la programación en el futuro?
+    Al principio aprender a programar fue un poco complicado, puesto que era un entorno completamente ajeno para mí. 
+    No comprendía bien cómo operaban ciertas funciones y eso producía que yo cometiera errores al momento de estudiar. 
+    Además, considero que, principalmente, la programación me enseñó el lenguaje básico de Python y a tener mucha paciencia. 
+    Asimismo, lo que más me gustó de estas experiencias es justo el proceso de programar, si bien es un proceso estresante y tardado, 
+    también creo que es divertido el seguir asegurarte de que todo se encuentre bien. En un futuro, me gustaría utilizar estos conocimientos como los mapas o las tablas para complementar proyectos venideros.
     """
     st.markdown(f"<div style='text-align: justify; font-size: 18px;'>{texto_6}</div>", unsafe_allow_html=True)
         
@@ -153,7 +154,7 @@ elif  opciones == 'Experiencia':
             
 else:
 
-    st.markdown("<h1 style='text-align: center;font-size: 50 px; color: black'>Nombre a la sección</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;font-size: 50 px; color: black'>Nuestros gráficos logrados💪</h1>", unsafe_allow_html=True)
     
     # Aquí todos los integrantes deben poner sus 3 gráficos y su mapa en la lista 
     # y aumentar la estructura condicional como sea necesaria
