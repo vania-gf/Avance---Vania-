@@ -114,18 +114,18 @@ elif  opciones == 'Experiencia':
         
     # Formato YouTube
     st.subheader("🎥 Título apropiado video 1")
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://youtu.be/6ofXrrw5Ats?si=vWkmzEfj1vJPHdQt")
         
     # Formato Google Drive
     st.subheader("🎥 Título apropiado video 2")
-    st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E")
+    st.video("https://youtu.be/jk8IWn7kIIQ?si=omBO-3PIrNYvPkb7")
     col1, col2, col3 = st.columns([1, 2, 1])
     
-    with col2:  
-        st.link_button("🎥 Texto del botón",
-                       "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
-                       use_container_width=True
-             )
+   # with col2:  
+    #    st.link_button("🎥 Texto del botón",
+      #                 "https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link",
+       #                use_container_width=True
+   #          )
 
     # Alumno c
     texto_6 = """
