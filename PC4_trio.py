@@ -324,7 +324,7 @@ else:
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_20}</div>", unsafe_allow_html=True)
             
-        with open("mapa_gabriela.html.ipynb", "r", encoding="utf-8") as mapa:
+        with open("F1_gabriela.html", "r", encoding="utf-8") as mapa:
                 html_content = mapa.read()
     
         components.html(html_content,height=600)
