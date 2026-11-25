@@ -310,9 +310,9 @@ else:
     else:
         st.subheader("🗺️ Mapa: Distribución geográfica")
         texto_19 = """
-        Para la creación de la ventana emergente del mapa se eligió una distribución lineal y centrada dentro del bloque (<div>), generando una lectura más ordenada
+        Para la creación de la ventana emergente del mapa se eligió una distribución lineal y centrada dentro del bloque (div), generando una lectura más ordenada
         de los datos de los pilotos Sebastian Vettel y Carlos Sainz en la temporada 2016 de F1. La información sigue una jerarquía visual, primero la imagen circular para identificar a 
-        cada piloto, seguida de un salto de linea(<br>) y su nombre en negrita(<b>). Luego se incluyó la escudería correspondiente de cada piloto en 2016. Finalmente, se añadió el total del
+        cada piloto, seguida de un salto de linea(br) y su nombre en negrita(b). Luego se incluyó la escudería correspondiente de cada piloto en 2016. Finalmente, se añadió el total del
         puntaje acumulado de cada corredor, diferenciando así los perfiles con sus rendimientos.
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_19}</div>", unsafe_allow_html=True)
