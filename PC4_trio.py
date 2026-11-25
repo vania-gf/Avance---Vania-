@@ -324,7 +324,7 @@ else:
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_20}</div>", unsafe_allow_html=True)
             
-        with open("mapa_vania.html", "r", encoding="utf-8") as mapa:
+        with open("Chirinos,_Gabriela_SEMANA_12_MAPA_INTERACTIVO_FORMULA_1.html", "r", encoding="utf-8") as mapa:
                 html_content = mapa.read()
     
         components.html(html_content,height=600)
