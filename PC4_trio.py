@@ -313,7 +313,8 @@ else:
         Para la creación de la ventana emergente del mapa se eligió una distribución lineal y centrada dentro del bloque (div), generando una lectura más ordenada
         de los datos de los pilotos Sebastian Vettel y Carlos Sainz en la temporada 2016 de F1. La información sigue una jerarquía visual, primero la imagen circular para identificar a 
         cada piloto, seguida de un salto de linea(br) y su nombre en negrita(b). Luego se incluyó la escudería correspondiente de cada piloto en 2016. Finalmente, se añadió el total del
-        puntaje acumulado de cada corredor, diferenciando así los perfiles con sus rendimientos.
+        puntaje acumulado de cada corredor, diferenciando así los perfiles con sus rendimientos. Asimismo, se seleccionó el ícono de banderas junto con el color verde en relación a su significado de "pista libre"
+        en la Fórmula 1, logrando diferenciar ambos puntos entre ubicaciones.
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_19}</div>", unsafe_allow_html=True)
             
