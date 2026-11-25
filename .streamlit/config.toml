@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#99181c"
-backgroundColor = "#ececec"
-secondaryBackgroundColor = "#E8E3D9"
+primaryColor = "#FA8F8F"
+backgroundColor = "#FEE7E7"
+secondaryBackgroundColor = "#FCBBBB"
 font = "Verdana"
 codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
