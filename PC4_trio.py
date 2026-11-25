@@ -310,7 +310,10 @@ else:
     else:
         st.subheader("🗺️ Mapa: Distribución geográfica")
         texto_19 = """
-        Para el desarrollo del mapa se elegió una distribución vertical para que haya facilidad de lectura de los datos considerados por piloto. En esta oportunidad se trabajaron con los datos de C. Sainz y S.Vettel. Primero se visualiza la imagen del piloto con su respectivo nombre al lado, luego el nombre de la escuderia a la que pertenecía en 2016, y finalmente el puntaje total que obtuvo en la temporada de ese año.
+        Para la creación de la ventana emergente del mapa se eligió una distribución lineal y centrada dentro del bloque (<div>), generando una lectura más ordenada
+        de los datos de los pilotos Sebastian Vettel y Carlos Sainz en la temporada 2016 de F1. La información sigue una jerarquía visual, primero la imagen circular para identificar a 
+        cada piloto, seguida de un salto de linea(<br>) y su nombre en negrita(<b>). Luego se incluyó la escudería correspondiente de cada piloto en 2016. Finalmente, se añadió el total del
+        puntaje acumulado de cada corredor, diferenciando así los perfiles con sus rendimientos.
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_19}</div>", unsafe_allow_html=True)
             
@@ -323,7 +326,7 @@ else:
         Para el diseño del mapa interactivo se utilizó la librería Folium, debido a que permite representar información geográfica mediante marcadores y ventanas emergentes. Se seleccionó una distribución organizada para presentar los datos de los pilotos Nico Rosberg y Lewis Hamilton, considerando su participación en la temporada 2016 de Fórmula 1.
         En las ventanas emergentes se utilizaron etiquetas HTML como h3 para destacar el nombre de cada piloto, img para incorporar su fotografía y p para presentar 
         información relacionada con la escudería, la ciudad de nacimiento y el puntaje total obtenido durante la temporada. Asimismo, se emplearon etiquetas b para resaltar los nombres de cada dato y facilitar su identificación.
-        La información se organizó de manera ordenada dentro de cada ventana emergente, 
+        La información se organizó de manera ordenada, 
         colocando primero el nombre y la fotografía del piloto, seguido de sus datos principales. 
         También se personalizaron los marcadores mediante diferentes colores e iconos para distinguir a cada participante en el mapa. Finalmente, se incorporó OpenStreetMap como mapa base, incluyendo sus respectivas atribuciones, con el propósito de facilitar la ubicación geográfica de las ciudades de nacimiento y mejorar la presentación visual de los resultados.
         """
