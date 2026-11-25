@@ -320,7 +320,11 @@ else:
         components.html(html_content,height=600)
     
         texto_20 = """
-        COMPLETAR.
+        Para el diseño del mapa interactivo se utilizó la librería Folium, debido a que permite representar información geográfica mediante marcadores y ventanas emergentes. Se seleccionó una distribución organizada para presentar los datos de los pilotos Nico Rosberg y Lewis Hamilton, considerando su participación en la temporada 2016 de Fórmula 1.
+
+        En las ventanas emergentes se utilizaron etiquetas HTML como h3 para destacar el nombre de cada piloto, img para incorporar su fotografía y p para presentar información relacionada con la escudería, la ciudad de nacimiento y el puntaje total obtenido durante la temporada. Asimismo, se emplearon etiquetas b para resaltar los nombres de cada dato y facilitar su identificación.
+
+        La información se organizó de manera ordenada dentro de cada ventana emergente, colocando primero el nombre y la fotografía del piloto, seguido de sus datos principales. También se personalizaron los marcadores mediante diferentes colores e iconos para distinguir a cada participante en el mapa. Finalmente, se incorporó OpenStreetMap como mapa base, incluyendo sus respectivas atribuciones, con el propósito de facilitar la ubicación geográfica de las ciudades de nacimiento y mejorar la presentación visual de los resultados.
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_20}</div>", unsafe_allow_html=True)
             
