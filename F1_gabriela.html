@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bdf8db8f707abaae0918300ac10dcb4d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bdf8db8f707abaae0918300ac10dcb4d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bdf8db8f707abaae0918300ac10dcb4d = L.map(
+                "map_bdf8db8f707abaae0918300ac10dcb4d",
+                {
+                    center: [50.9928315, 4.0246],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+
+            
+
+        
+    
+            var tile_layer_2add0e16f156acb31bf1cf380fb846a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap contributors\u003c/a\u003e | Datos bajo licencia \u003ca href=\"https://opendatacommons.org/licenses/odbl/\"\u003eODbL\u003c/a\u003e",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+  "referrerPolicy": "strict-origin",
+}
+
+            );
+        
+    
+            tile_layer_2add0e16f156acb31bf1cf380fb846a9.addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+            tile_layer_2add0e16f156acb31bf1cf380fb846a9.addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+            var marker_03cfef05639482fddd06212803abe171 = L.marker(
+                [50.083333, 8.25],
+                {
+}
+            ).addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+            var icon_cab6b02aa8c7fe09f524ce365a8c2de8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_025e60d76155e7d65ebee91169a78a84 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_56b749bdda95655955ab3b450bd3b165 = $(`<div id="html_56b749bdda95655955ab3b450bd3b165" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center; width:220px;">              <h3>N. ROSBERG</h3>                           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nico_Rosberg_2016_Malaysia_2.jpg"                  width="140"                  height="110"                  style="object-fit:cover; border-radius:10px;">                           <p><b>Escudería:</b> Mercedes AMG Petronas</p>              <p><b>Ciudad natal:</b> Wiesbaden, Alemania</p>              <p><b>Puntaje total:</b> 385 puntos</p>          </div>         </div>`)[0];
+                popup_025e60d76155e7d65ebee91169a78a84.setContent(html_56b749bdda95655955ab3b450bd3b165);
+            
+        
+
+        marker_03cfef05639482fddd06212803abe171.bindPopup(popup_025e60d76155e7d65ebee91169a78a84)
+        ;
+
+        
+    
+    
+            marker_03cfef05639482fddd06212803abe171.bindTooltip(
+                `<div>
+                     N. ROSBERG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03cfef05639482fddd06212803abe171.setIcon(icon_cab6b02aa8c7fe09f524ce365a8c2de8);
+            
+    
+            var marker_785683c77cbbf78d3ef4f737f0e2531f = L.marker(
+                [51.90233, -0.2008],
+                {
+}
+            ).addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+            var icon_a363aa0b01e33feae42520e1e1197dc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f76fca3f6f81d6f2ecb1992953eef207 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ab3de0a73e78783220560e2ab5ffb0a7 = $(`<div id="html_ab3de0a73e78783220560e2ab5ffb0a7" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center; width:220px;">              <h3>L. HAMILTON</h3>                           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lewis_Hamilton_2016_Malaysia_1.jpg"                  width="140"                  height="110"                  style="object-fit:cover; border-radius:10px;">                           <p><b>Escudería:</b> Mercedes AMG Petronas</p>              <p><b>Ciudad natal:</b> Stevenage, Inglaterra</p>              <p><b>Puntaje total:</b> 380 puntos</p>          </div>         </div>`)[0];
+                popup_f76fca3f6f81d6f2ecb1992953eef207.setContent(html_ab3de0a73e78783220560e2ab5ffb0a7);
+            
+        
+
+        marker_785683c77cbbf78d3ef4f737f0e2531f.bindPopup(popup_f76fca3f6f81d6f2ecb1992953eef207)
+        ;
+
+        
+    
+    
+            marker_785683c77cbbf78d3ef4f737f0e2531f.bindTooltip(
+                `<div>
+                     L. HAMILTON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_785683c77cbbf78d3ef4f737f0e2531f.setIcon(icon_a363aa0b01e33feae42520e1e1197dc4);
+            
+    
+            tile_layer_2add0e16f156acb31bf1cf380fb846a9.addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+                marker_03cfef05639482fddd06212803abe171.setIcon(icon_cab6b02aa8c7fe09f524ce365a8c2de8);
+            
+    
+                marker_785683c77cbbf78d3ef4f737f0e2531f.setIcon(icon_a363aa0b01e33feae42520e1e1197dc4);
+            
+    
+            tile_layer_2add0e16f156acb31bf1cf380fb846a9.addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+                marker_03cfef05639482fddd06212803abe171.setIcon(icon_cab6b02aa8c7fe09f524ce365a8c2de8);
+            
+    
+                marker_785683c77cbbf78d3ef4f737f0e2531f.setIcon(icon_a363aa0b01e33feae42520e1e1197dc4);
+            
+    
+            tile_layer_2add0e16f156acb31bf1cf380fb846a9.addTo(map_bdf8db8f707abaae0918300ac10dcb4d);
+        
+    
+                marker_03cfef05639482fddd06212803abe171.setIcon(icon_cab6b02aa8c7fe09f524ce365a8c2de8);
+            
+    
+                marker_785683c77cbbf78d3ef4f737f0e2531f.setIcon(icon_a363aa0b01e33feae42520e1e1197dc4);
+            
+</script>
+</html>
