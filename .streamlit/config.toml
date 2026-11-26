@@ -2,6 +2,6 @@
 primaryColor = "#FF4D62"
 backgroundColor = "#F9FFC4"
 secondaryBackgroundColor = "#FF9CA7"
-font = "'Poiret One':https://fonts.googleapis.com/css2?family=Poiret+One&display=swap, sans-serif"
-codeFont = "'Poiret One':https://fonts.googleapis.com/css2?family=Poiret+One&display=swap, monospace"
+font = "'Belanosima':https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap, sans-serif"
+codeFont = "'Belanosima':https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap, monospace"
 textColor = "#000000"
