@@ -2,6 +2,6 @@
 primaryColor = "#FF4D62"
 backgroundColor = "#F9FFC4"
 secondaryBackgroundColor = "#FF9CA7"
-font = "'Patrick Hand':https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap, cursive, sans-serif"
-codeFont = "'Patrick Hand':https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap, monospace"
+font = "'Poiret One':https://fonts.googleapis.com/css2?family=Poiret+One&display=swap, sans-serif"
+codeFont = "'Poiret One':https://fonts.googleapis.com/css2?family=Poiret+One&display=swap, monospace"
 textColor = "#000000"
