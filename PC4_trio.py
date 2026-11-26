@@ -169,12 +169,13 @@ else:
         Mediante .replace() se eliminaron comas, puntos, guiones, paréntesis, signos de interrogación y otros signos de puntuación que normalmente aparecen en los libros. Esto permitió filtrar los términos que no resultan relevantes para el análisis.
         Se tomaron en cuenta preposiciones, conectores,determinantes y palabras que se solían repetir y no sumaban información importante para el análisis. Se conservaron las palabras de mayor importancia en el texto para el análisis.
         Las decisiones tomadas me permmitieron poder filtrar elementos que no eran de mucha importancia como números o el encabezado de la pagina. De esta manera, se logró mostrar los datos relevantes en la nube de palabras. Por otro lado, la elección organizada de los nombres de las variables me ayudó a mantener un orden claro al momento del procesamiento del texto.
+        Finalmente, se eligió el color #6F0F06 para el fondo y para el colormap Set 2, así como tambien, la eliminación de los ejes.
         """
         st.markdown(f"<div style='text-align: justify; font-size: 16px;'>{texto_7}</div>", unsafe_allow_html=True)
     
         col1, col2, col3 = st.columns([1, 7, 1])
         with col2:
-                st.image("descarga.png", width=800)
+                st.image("palabras_vania.png", width=800)
 
         texto_8 = """
         Elegí trabajar con minúsculas para que una misma palabra se contara de manera uniforme, independientemente de cómo estuviera escrita en el capítulo. Reemplacé por espacios los puntos, comas, puntos y coma, dos puntos, signos de interrogación y exclamación, comillas, paréntesis, guiones y puntos suspensivos, para separar correctamente las palabras. Conservé las tildes y la ñ porque forman parte de su escritura y permiten distinguir significados. Para crear la lista de stopwords seleccioné artículos, preposiciones, conjunciones y pronombres frecuentes, como «el», «de», «y» y «yo», que aportan poca información sobre el contenido de la historia. Estas decisiones permiten agrupar las apariciones de una misma palabra y reducir la presencia de términos gramaticales en el análisis. De esta manera, las frecuencias muestran cuántas veces aparecen las palabras conservadas, y la nube representa con mayor tamaño aquellas que más se repiten en el texto depurado.
